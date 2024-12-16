@@ -47,7 +47,7 @@ body{
 
 #fromText{
     font-size: 1.3vw;
-    height: 250px;
+    height: 38vh;
     width: 100%;
     margin-left: 10px;
     border: none;
@@ -58,7 +58,7 @@ body{
 
 #toText{
     font-size: 1.3vw;
-    height: 250px;
+    height: 38vh;
     width: 100%;
     margin-right: 10px;
     border: none;
@@ -69,7 +69,7 @@ body{
 
 .selectArea{
     width: 50vw;
-    height: 50px;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,6 +141,7 @@ img:hover{
 @media screen and (max-width: 500px) {
     .selectArea{
         display: flex;
+        justify-content: center;
         flex-direction: column;
     }
     .container{
@@ -148,18 +149,33 @@ img:hover{
         width: 70vw;
     }
     #translate{
-        margin-top: 70px;
+        margin-top: 50px;
         height: 40px;
         width: 40%;
     }
     .select1,.select2{
         margin: 10px 0;
         width: 50vw;
+        gap: 5vw;
     }
     #fselect{
         width: 20vw;
     }
     #sselect{
         width: 20vw;
+    }
+    #fromText{
+        font-size: 4vw;
+        height: 35vh;
+    }
+    #toText{
+        font-size: 4vw;
+        height: 35vh;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    h4{
+        font-size: 3vw;
     }
 }
