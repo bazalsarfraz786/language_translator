@@ -28,6 +28,6 @@ A lightweight **Language Translator** built with **HTML**, **CSS**, and **JavaSc
 ## 🔗 Links
 
 - **Live Demo**: [ https://bazalsarfraz786.github.io/language_translator/]
-- **GitHub**: [your-username](https://github.com/bazalsarfraz786)
+- **GitHub**: [bazalsarfraz786](https://github.com/bazalsarfraz786)
 
 
