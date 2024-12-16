@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="lang.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Language Translator</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2 style="font-size: 2.1vw;">Language Translator</h2>
+        <h4 style="font-size: 1.5vw;">Designed by <NAME><a href="https://www.linkedin.com/in/bazal-sarfraz/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="text-decoration: none; color: chartreuse; cursor: pointer;">Bazal Sarfraz</a></NAME></h4>
+        <div class="text">
+            <textarea name="text" id="fromText" placeholder="Enter text here ...."></textarea>
+            <textarea name="text" id="toText" placeholder="Translated text will appear here ...."></textarea>
+        </div>
+
+        <div class="selectArea">
+
+            <div class="select1">
+                <img src="copy.svg" alt="" class="copy" id="from">
+                <img src="speaker.svg" alt="" class="speaker" id="from">
+                <select name="" id="fselect">
+                    
+                </select>
+            </div>
+
+            <div class="select2">
+                <img src="copy.svg" alt="" class="copy" id="to">
+                <img src="speaker.svg" alt="" class="speaker" id="to">
+                <select name="" id="sselect">
+                    
+                </select>
+            </div>
+            
+        </div>
+
+        <button id="translate">Translate</button>
+        
+    </div>
+    
+    
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
